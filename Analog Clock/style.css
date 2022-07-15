@@ -4,13 +4,12 @@
 	box-sizing: border-box;
 }
 body {
-	background-image: linear-gradient(45deg, #ee0979, #ff6a00);
+	background-image: linear-gradient(to bottom right, #C9FFBF, #FFAFBD);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 }
 .header {
 	position: absolute;
@@ -19,21 +18,24 @@ body {
 	transform: translate(50%, 50%);
 }
 .container {
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.container .clock {
+.clock {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: rgba( 255, 255, 255, 0.13 );
 	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 4px );
-	-webkit-backdrop-filter: blur( 4px );
 	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
-.container .clock::before {
+.clock::before {
 	content: '';
 	position: absolute;
 	width: 15px;
@@ -41,10 +43,7 @@ body {
 	background-color: #fff;
 	border-radius: 50%;
 	z-index: 6;
-	left: 48%;
-	top: 247px;
 }
-
 .clock .hour,
 .clock .minute,
 .clock .second {
@@ -66,19 +65,16 @@ body {
 	display: flex;
 	justify-content: center;
 	/*align-items: center;*/
-	position: absolute;
 	border-radius: 50%;
 }
 .hr::before {
 	content: '';
 	position: absolute;
 	width: 8px;
-	height: 100px;
+	height: 85px;
 	background-color: #00ff5e;
 	z-index: 3;
 	border-radius: 6px 6px 0 0;
-	top: -100px;
-	left: 243px;
 }
 .mn::before {
 	content: '';
@@ -88,8 +84,6 @@ body {
 	background-color: #07bef5;
 	z-index: 4;
 	border-radius: 6px 6px 0 0;
-	top: -120px;
-	left: 244px;
 }
 .sc::before {
 	content: '';
@@ -99,65 +93,61 @@ body {
 	background-color: #fff;
 	z-index: 5;
 	border-radius: 6px 6px 0 0;
-	top: -150px;
-	left: 245px;
 }
 
-
-.container .tiles div {
+.tiles div {
 	position: relative;
 	display: block;
-	font-weight: 900;
-	color: #fff;
+	font-weight: bolder;
+	color: #190A05;
 }
 .container .tiles div span {
 	width: 100%;
 	height: 100%;
 }
 .container .tiles div:nth-child(1) {
-	left: 0%;
-	top:10px;
+	top: -60px;
 }
 .container .tiles div:nth-child(2) {
-	left: 22%;
-	top:20px;
+	top: -57px;
+	left: 88px;
 }
 .container .tiles div:nth-child(3) {
-	left: 39%;
-	top:85px;
+	top: -15px;
+	left: 155px;
 }
 .container .tiles div:nth-child(4) {
-	left: 45%;
-	top:174px;
+	top: 55px;
+	left: 180px;
 }
 .container .tiles div:nth-child(5) {
-	left: 39%;
-	top:266px;
+	top: 120px;
+	left: 155px;
 }
 .container .tiles div:nth-child(6) {
-	left: 22%;
-	top:328px;
+	top: 165px;
+	left: 88px;
 }
 .container .tiles div:nth-child(7) {
-	top:335px;
+	top: 165px;
 }
 .container .tiles div:nth-child(8) {
-	left: -22%;
-	top:284px;
+	top: 120px;
+	right: 88px;
 }
 .container .tiles div:nth-child(9) {
-	left: -39%;
-	top:176px;
+	top: 35px;
+	right: 155px;
 }
 .container .tiles div:nth-child(10) {
-	left: -45%;
-	top:44px;
+	top: -75px;
+	right: 180px;
 }
 .container .tiles div:nth-child(11) {
-	left: -39%;
-	top:-90px;
+	top: -185px;
+	right: 155px;
 }
 .container .tiles div:nth-child(12) {
-	left: -22%;
-	top:-197px;
+	top: -270px;
+	right: 90px;
 }
