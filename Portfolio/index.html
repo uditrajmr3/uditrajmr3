@@ -1,64 +1,176 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Portfolio</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
 
-	<!-- my css -->
-	<link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- my css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-	<!-- font awesome cdn -->
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-	<!-- jquery script -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <!-- header will be loaded in here -->
+      <div class="header">
+        <ul>
+          <li><a href="#Collab">Collab</a></li>
+          <li><a href="#social">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Home">Home</a></li>
+        </ul>
+      </div>
+    </div>
 
-</head>
-<body>
-	<div id="header">
-		<!-- header will be loaded in here -->
-		<div class="header">
-			<ul>
-				<li><a href="#Collab">Collab</a></li>
-				<li><a href="#social">Contact</a></li>
-				<li><a href="#About">About</a></li>
-				<li><a href="#Projects">Projects</a></li>
-				<li><a href="#Home">Home</a></li>
-			</ul>
-		</div>
-	</div>
+    <div class="Home" id="Home">Work in Progess...</div>
 
-	<div class="Home" id="Home">
-		
-	</div>
+    <div class="Prjoects" id="Projects">
+      <div class="row">
+        <div class="box">
+          <img src="ttt.png" />
+          <div class="content">
+            <h2>Project Details</h2>
+            <p>
+              This is a simple tic tac toe game made using html, css, and js.
+            </p>
+            <p>Future updates will include a computer as second player.</p>
+            <a href="../Tic Tac Toe/index.html">
+              <div class="button" id="button">
+                <button>Check Out</button>
+                <img class="arrow-icon" src="angle-right-solid.svg" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
 
-	<div class="Prjoects" id="Projects">
-		
-	</div>
+        <div class="card">
+          <div class="info">
+            <div class="name">Analog Clock</div>
+            <div class="prof">css/js project</div>
+            <div class="divider"></div>
+            <div class="bio">
+              <p>
+                A simple analog clock made using html, css and vanilla js.
+                Although there is no future updates planned currently for this
+                project, a future update may include use of jquery date and time
+                functions to make it more enticing and profounding.
+              </p>
+            </div>
+            <a href="../Analog Clock/index.html">
+              <div class="button" id="card2">
+                <span>Check Out</span>
+              </div>
+            </a>
+          </div>
+          <div class="photo"></div>
+        </div>
+      </div>
 
-	<div class="About" id="About">
-		
-	</div>
+      <div class="row" id="row2">
+        <div class="box2">
+          <div class="box2-img">
+            <img src="im5.png" alt="" />
+          </div>
+          <div class="content2">
+            <h3>NSS Marwadi</h3>
+            <p>Android Application</p>
+            <a href="#">
+              <div id="card3">
+                <span>Download</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="box2-img">
+            <img src="im5.png" alt="" />
+          </div>
+          <div class="content2">
+            <h3>Expense Management</h3>
+            <p>Flutter Application</p>
+            <a href="#">
+              <div id="card3">
+                <span>Download</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="box2-img">
+            <img src="im5.png" alt="" />
+          </div>
+          <div class="content2">
+            <h3>Music Player</h3>
+            <p>Flutter Application</p>
+            <a href="#">
+              <div id="card3">
+                <span>Download</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="box2-img">
+            <img src="im5.png" alt="" />
+          </div>
+          <div class="content2">
+            <h3>Instagram Clone</h3>
+            <p>Flutter Application</p>
+            <a href="#">
+              <div id="card3">
+                <span>Download</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<div class="Collab" id="Collab">
-		
-	</div>
+    <div class="About" id="About"></div>
 
-	<footer>
-		<div class="copyright">
-			&#169; UDIT RAJ
-		</div>
-		<div class="social" id="social">
-			<ul>
-				<li><a href="tel:7782848946" class="fa fa-phone"></a></li>
-				<li><a href="https://www.facebook.com/udit.raj.7503" class="fa fa-facebook"></a></li>
-				<li><a href="https://github.com/uditrajmr3" class="fa fa-github"></a></li>
-				<li><a href="https://twitter.com/uditraj98674162" class="fa fa-twitter"></a></li>
-				<li><a href="https://www.linkedin.com/in/udit-raj-1658b5213/" class="fa fa-linkedin"></a></li>
-				<li><a href="mailto:uditraj3426@gmail.com" class="fa fa-google"></a></li>
-			</ul>
-		</div>
-	</footer>
-</body>
+    <div class="Collab" id="Collab"></div>
+
+    <footer>
+      <div class="copyright">&#169; UDIT RAJ</div>
+      <div class="social" id="social">
+        <ul>
+          <li><a href="tel:7782848946" class="fa fa-phone"></a></li>
+          <li>
+            <a
+              href="https://www.facebook.com/udit.raj.7503"
+              class="fa fa-facebook"
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/uditrajmr3" class="fa fa-github"></a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/uditraj98674162"
+              class="fa fa-twitter"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/udit-raj-1658b5213/"
+              class="fa fa-linkedin"
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:uditraj3426@gmail.com" class="fa fa-google"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
