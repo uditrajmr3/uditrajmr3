@@ -8,7 +8,7 @@
 
 AI Engineer · Full-Stack Developer · Flutter · Ahmedabad, India 🇮🇳
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/udit-raj-878088293)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uditrajmr3/)
 [![Website](https://img.shields.io/badge/uditraj.site-0a0f1e?style=flat&logo=vercel&logoColor=white)](https://uditraj.site)
 [![neweb.ai](https://img.shields.io/badge/neweb.ai-6366f1?style=flat&logo=sparkles&logoColor=white)](https://dashboard.neweb.ai)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@uditrajmr3)
@@ -30,7 +30,7 @@ My work sits across AI/ML pipelines, backend architecture, Flutter apps, and wha
 | Project | Description | Stack |
 |---|---|---|
 | [neweb.ai](https://dashboard.neweb.ai) | Autonomous website manager — generates, deploys, ranks | Node.js · React · MongoDB · AI |
-| [Placera](https://github.com/uditrajmr3/placera) | Job application automation | Python · AI |
+| [Placera](https://placera.commerciax.in/) | Job application automation | Python · AI |
 | [Evil Eye](https://evileye.uditraj.site) | Supernatural folklore encyclopedia via 5-agent AI pipeline | Ollama · TypeScript · MongoDB |
 | [Architect's Void](https://uditraj.site) | Personal site & digital laboratory | Vite · React · Express |
 
