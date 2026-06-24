@@ -14,7 +14,7 @@
 				<button  class="theme-toggle-btn" type="button" id="toggle-btn"></button>
 			</div>
 			<div class="calc-display">
-				<input type="text" name="input" class="calc-input-area">
+				<input type="text" name="input" id="display" class="calc-input-area" readonly placeholder="0">
 			</div>
 			<div class="calc-body">
 				<table>
@@ -51,6 +51,18 @@
 				</table>
 			</div>
 		</div>
+
+		<!-- Secret stash vault -->
+		<div class="stash" id="stash" hidden>
+			<div class="stash-head">
+				<span>🔒 Secret Stash</span>
+				<button type="button" id="stash-lock" title="Lock">Lock</button>
+			</div>
+			<textarea id="stash-notes" placeholder="Your private notes — saved only in this browser."></textarea>
+			<button type="button" id="stash-save">Save</button>
+		</div>
 	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>

@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pong Game</title>
-
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-	<!-- Requires p5.js -->
-	<script type="text/javascript" src="script.js"></script>
-	<script type="text/javascript" src="pedal.js"></script>
-	<script type="text/javascript" src="ball.js"></script>
+	<div class="wrap">
+		<h1>PONG</h1>
+		<div class="score">
+			<span id="playerScore">0</span>
+			<span class="divider">:</span>
+			<span id="cpuScore">0</span>
+		</div>
+		<canvas id="game" width="640" height="400"></canvas>
+		<p class="hint" id="hint">Move your mouse — or use <b>W</b>/<b>S</b> / <b>&uarr;</b>/<b>&darr;</b>. First to 7 wins. Click to start.</p>
+	</div>
+	<script src="script.js"></script>
 </body>
 </html>
