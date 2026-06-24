@@ -34,6 +34,8 @@ My work sits across AI/ML pipelines, backend architecture, Flutter apps, and wha
 | [Evil Eye](https://evileye.uditraj.site) | Supernatural folklore encyclopedia via 5-agent AI pipeline | Ollama · TypeScript · MongoDB |
 | [Architect's Void](https://uditraj.site) | Personal site & digital laboratory | Vite · React · Express |
 
+> 🕰️ Curious where I began? Browse [**The Archive**](https://uditrajmr3.github.io/) — my first web projects, kept exactly as they were.
+
 ---
 
 ## Core stack
