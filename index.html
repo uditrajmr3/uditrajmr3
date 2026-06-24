@@ -1,33 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Projects</title>
+    <title>Udit Raj — The Archive | Early Projects</title>
+    <meta
+      name="description"
+      content="A small museum of Udit Raj's earliest web projects, kept as they were. Current work lives at uditraj.site."
+    />
+    <link rel="canonical" href="https://uditrajmr3.github.io/uditrajmr3/" />
 
-    <style type="text/css">
-      body ol {
-        font-size: 25px;
+    <style>
+      :root {
+        --rose: #f53f79;
+        --ink: #e8ecf3;
+        --muted: #aab2c0;
       }
-      h1 {
-        color: slategrey;
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        min-height: 100vh;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        color: var(--ink);
+        background: linear-gradient(135deg, #152331 0%, #000000 100%);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        padding: 64px 20px;
+        line-height: 1.6;
       }
-      a {
-        color: red;
+      main { width: 100%; max-width: 640px; }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 0.72rem;
+        color: var(--rose);
+        font-weight: 700;
       }
+      h1 { font-size: 2rem; margin: 8px 0 12px; letter-spacing: -0.01em; }
+      .lede { color: var(--muted); margin-bottom: 36px; font-size: 0.98rem; }
+      .lede a { color: var(--rose); text-decoration: none; }
+      .lede a:hover { text-decoration: underline; }
+
+      ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+      li a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px 18px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.02);
+        color: var(--ink);
+        text-decoration: none;
+        transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+      }
+      li a:hover {
+        border-color: rgba(245, 63, 121, 0.55);
+        background: rgba(245, 63, 121, 0.06);
+        transform: translateX(3px);
+      }
+      .title { font-weight: 600; }
+      .desc { display: block; color: var(--muted); font-size: 0.85rem; font-weight: 400; }
+      .arrow { color: var(--rose); font-size: 1.2rem; flex-shrink: 0; }
+
+      footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+      footer a { color: var(--rose); text-decoration: none; font-weight: 600; }
+      footer a:hover { text-decoration: underline; }
     </style>
   </head>
   <body>
-    <h1><center>My Projects</center></h1>
+    <main>
+      <p class="eyebrow">The Archive</p>
+      <h1>Where I began</h1>
+      <p class="lede">
+        A small museum of the first web projects I ever built — plain HTML, CSS
+        and JavaScript, kept exactly as they were. My current work lives at
+        <a href="https://uditraj.site" rel="noopener">uditraj.site</a>.
+      </p>
 
-    <ol>
-      <li><a href="Portfolio/index.html">My Portfolio</a></li>
-      <li><a href="Tic Tac Toe/index.html">Tic Tac Toe</a></li>
-      <li><a href="Login Page/index.html">Login Page</a></li>
-      <li><a href="Analog Clock/index.html">Analog Clock</a></li>
-      <li><a href="Calculator with Secret Stash/index.html">Calculator with Secret Stash</a></li>
-      <li><a href="Pong Game/index.html">Pong Game</a></li>
-      <li><a href="3D_Portfolio/myProject/index.html">3D Portfolio (in progress)</a></li>
-    </ol>
+      <ul>
+        <li>
+          <a href="Portfolio/index.html">
+            <span class="title">My Portfolio<span class="desc">My very first portfolio site.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="Tic Tac Toe/index.html">
+            <span class="title">Tic Tac Toe<span class="desc">Two-player game in vanilla JS.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="Login Page/index.html">
+            <span class="title">Login Page<span class="desc">Animated glassmorphism login screen.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="Analog Clock/index.html">
+            <span class="title">Analog Clock<span class="desc">Real-time clock with CSS transforms.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="Calculator with Secret Stash/index.html">
+            <span class="title">Calculator with Secret Stash<span class="desc">A calculator hiding a PIN-locked vault.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="Pong Game/index.html">
+            <span class="title">Pong<span class="desc">The arcade classic, rebuilt on canvas.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="3D_Portfolio/myProject/index.html">
+            <span class="title">3D Portfolio <span class="desc">An early Three.js experiment — still in progress.</span></span>
+            <span class="arrow">&rarr;</span>
+          </a>
+        </li>
+      </ul>
+
+      <footer>
+        Built by Udit Raj · See the full portfolio at
+        <a href="https://uditrajmr3.github.io/" rel="noopener">uditrajmr3.github.io</a>
+        and current work at
+        <a href="https://uditraj.site" rel="noopener">uditraj.site</a>.
+      </footer>
+    </main>
   </body>
 </html>
