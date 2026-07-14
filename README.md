@@ -17,7 +17,7 @@ AI Engineer · Full-Stack Developer · Flutter · Ahmedabad, India 🇮🇳
 
 ---
 
-I build things at the intersection of **AI, full-stack engineering, and product**. Currently co-founding [neweb.ai](https://dashboard.neweb.ai) — an autonomous website platform that generates, deploys, and ranks websites end-to-end.
+I'm a software engineer building things at the intersection of **AI, full-stack engineering, and product**. Currently co-founding [neweb.ai](https://dashboard.neweb.ai) — an autonomous website platform that generates, deploys, and ranks websites end-to-end.
 
 My work sits across AI/ML pipelines, backend architecture, Flutter apps, and whatever it takes to ship. I think at civilizational scale, build at startup speed.
 
@@ -29,6 +29,7 @@ My work sits across AI/ML pipelines, backend architecture, Flutter apps, and wha
 
 | Project | Description | Stack |
 |---|---|---|
+| [The Work](https://uditraj.online) | Portfolio — 128 hand-built websites (business, portfolio, editorial), scaling to 1000 | Next.js · SSG |
 | [neweb.ai](https://dashboard.neweb.ai) | Autonomous website manager — generates, deploys, ranks | Node.js · React · MongoDB · AI |
 | [Placera](https://placera.commerciax.in/) | Job application automation | Python · AI |
 | [Evil Eye](https://evileye.uditraj.site) | Supernatural folklore encyclopedia via 5-agent AI pipeline | Ollama · TypeScript · MongoDB |
@@ -70,7 +71,8 @@ I write about AI systems, builder culture, and technical milestones on [Medium](
 
 <div align="center">
 
-**Udit Raj** · Ahmedabad, India · [uditraj.site](https://uditraj.site) · [uditraj3426@gmail.com](mailto:uditraj3426@gmail.com)
+**Udit Raj** · Software Engineer & CTO · Ahmedabad, India · [uditraj.online](https://uditraj.online) · [uditraj.site](https://uditraj.site) · [uditraj3426@gmail.com](mailto:uditraj3426@gmail.com)
+
 
 *Sanatani. Builder. Bihari roots. Long bets.*
 
